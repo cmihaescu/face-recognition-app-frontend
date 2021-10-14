@@ -1,0 +1,18 @@
+.dropzone {
+    width: 70%;
+    height: 15vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-bottom {
+    height: 10vh;
+}
+
+.imgPreview {
+    display: block;
+    width: 30%;
+}

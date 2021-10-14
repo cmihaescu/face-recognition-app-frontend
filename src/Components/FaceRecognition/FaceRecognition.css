@@ -1,0 +1,87 @@
+#test-image {
+    visibility: hidden;
+    height: 1px;
+    width: 1px;
+}
+
+.examined-image {
+    width: 60%;
+}
+
+.imageFailed {
+    font-weight: 600;
+}
+
+.strokeme {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  .image-container{
+      position: relative;
+      width: 60%;
+      margin: 2%;
+  }
+  
+  .displayed-picture {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .celebrities-results-container {
+      width: 40%;
+      padding: 2%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .box-and-name-container{
+    position: relative;
+    width: 50%;
+    max-width: 100px;
+  }
+
+  .test{
+    position: absolute;
+  }
+
+  .bounding-box {
+      border: 3px solid #149df2;
+      height: 100%;
+      width: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: flex-start;
+      cursor: pointer;
+      z-index: 3;
+  }
+
+  .celebrity-number{
+    background-color: #149df2;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 4px 4px 0 0;
+    border-bottom-right-radius:6px;
+  }
+
+  .name-on-picture{
+    position: absolute;
+    top:-2.4em;
+    opacity:0;
+    z-index: 5;  
+  }
+
+  .test:hover .name-on-picture {     
+      opacity:1;  
+  }
+  .test:hover .bounding-box {
+    opacity:0;
+  }
+
+ 
+  .celebrities-and-image-container{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      background-image: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+  }

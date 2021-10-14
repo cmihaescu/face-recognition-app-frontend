@@ -1,0 +1,52 @@
+.Tilt {
+    background: rgb(0,149,132);
+    background: linear-gradient(180deg, rgba(0,149,132,1) 21%, rgba(10,23,145,1) 51%, rgba(0,0,0,1) 100%);
+    cursor: pointer;
+}
+
+.help{
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.logo-box {
+    width: 10%;
+}
+
+.instructions {
+    width: 90%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding:1%
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.close {
+    color: white;
+    cursor: pointer;
+    padding: 5%;
+}
+
+.close:hover {
+    color:black;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.help-box {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.6);;
+    border-radius: 20px;
+    padding:1%
+}
+
+.help-lines {
+    width: 90%;
+}
